@@ -171,7 +171,7 @@ text-align: right;
   margin-left: var(--nav-width);
   flex: 1;
   padding: 3.5rem 5vw 6rem calc(2vw + 1rem);
-  max-width: 1500px;
+  max-width: 1200px;
   padding-top: 7rem;
   
 }
