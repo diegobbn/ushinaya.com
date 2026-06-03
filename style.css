@@ -14,7 +14,7 @@
   --bg: #ffffff;
   --fg: #000000;
   --fg-muted: #000000;
-  --fg-year: #494747;
+  --fg-year: #5c5b5b;
   --fg-faint: #000000;
   --accent: #000000;
   --nav-width: 300px;
@@ -147,7 +147,7 @@ text-align: right;
 
 .sidenav__projects li a:hover,
 .sidenav__meta li a:hover {
-  color: var(--fg);
+  color: var(--fg-year);
 }
 
 .sidenav__projects li a.active,
