@@ -6,8 +6,13 @@ fetch('nav.html')
         // Lien actif
         const currentPage = window.location.pathname.split('/').pop();
 
+        console.log("Current page:", currentPage);
+
         document.querySelectorAll('.sidenav__projects a').forEach(link => {
+            console.log("Link:", link.getAttribute('href'));
+
             if (link.getAttribute('href') === currentPage) {
+                console.log("MATCH");
                 link.classList.add('active');
             }
         });
