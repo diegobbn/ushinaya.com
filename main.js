@@ -1,4 +1,3 @@
-console.log("MAIN JS LOADED");
 fetch('nav.html')
     .then(response => response.text())
     .then(data => {
