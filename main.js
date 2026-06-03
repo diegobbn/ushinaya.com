@@ -3,20 +3,33 @@ fetch('nav.html')
     .then(data => {
         document.getElementById('nav-container').innerHTML = data;
 
+        // Page actuelle
+        const currentPage = window.location.pathname
+            .split('/')
+            .pop()
+            .replace('.html', '');
+
         // Lien actif
-        const currentPage = window.location.pathname.split('/').pop();
+        document.querySelectorAll('.sidenav__projects a, .sidenav__meta a').forEach(link => {
+            const linkPage = link
+                .getAttribute('href')
+                .replace('.html', '');
 
-        console.log("Current page:", currentPage);
-
-        document.querySelectorAll('.sidenav__projects a').forEach(link => {
-            console.log("Link:", link.getAttribute('href'));
-
-            if (link.getAttribute('href') === currentPage) {
-                console.log("MATCH");
+            if (linkPage === currentPage) {
                 link.classList.add('active');
             }
         });
 
+        // Cas particulier pour la page d'accueil
+        if (
+            window.location.pathname === '/' ||
+            window.location.pathname.endsWith('/index.html')
+        ) {
+            const homeLink = document.querySelector('a[href="index.html"]');
+            if (homeLink) {
+                homeLink.classList.add('active');
+            }
+        }
 
         // Menu mobile
         const menuBtn = document.querySelector('.menu-toggle');
@@ -27,4 +40,7 @@ fetch('nav.html')
                 sidenav.classList.toggle('open');
             });
         }
+    })
+    .catch(error => {
+        console.error('Erreur chargement nav :', error);
     });
