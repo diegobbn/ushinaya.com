@@ -241,7 +241,7 @@ text-align: right;
 
 /* Full width */
 .photo-block--full {
-  width: 95%;
+  width: 100%;
 }
 
 .photo-block--full img {
