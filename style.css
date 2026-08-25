@@ -4,12 +4,16 @@
    ───────────────────────────────────────────── */
 
 @font-face {
-  font-family: font; /* set name */
-  src: url(/font/MonumentGrotesk-Regular.otf); /* url of the font */
+  font-family: font;
+  /* set name */
+  src: url(/font/MonumentGrotesk-Regular.otf);
+  /* url of the font */
 }
+
 * {
-   font-family: font;
+  font-family: font;
 }
+
 :root {
   --bg: #ffffff;
   --fg: #000000;
@@ -21,7 +25,9 @@
   --gap: 2rem;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -45,6 +51,8 @@ body {
   min-height: 100vh;
 }
 
+
+
 /* ── IMAGES ─────────────────────────────────── */
 img {
   display: block;
@@ -55,30 +63,32 @@ img {
 
 a {
   color: inherit;
-  text-decoration: none;
+  color: #73727d; 
+  text-decoration: none; 
+  cursor: pointer;
 }
 
 /* ── SIDENAV ─────────────────────────────────── */
 .sidenav {
-position: fixed;
-top: 0;
-left: 0;
-width: var(--nav-width);
-height: 100vh;
-padding-top:7rem;
-display: flex;
-flex-direction: column;
-background: var(--bg);
-z-index: 100;
-overflow-y: auto;
-align-items: flex-end;
-justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--nav-width);
+  height: 100vh;
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  z-index: 100;
+  overflow-y: auto;
+  align-items: flex-end;
+  justify-content: flex-start;
 }
 
 .sidenav__top {
   margin-bottom: 3rem;
-text-align: right;
- 
+  text-align: right;
+
 }
 
 p {
@@ -94,9 +104,9 @@ p {
   line-height: 1.2;
   color: var(--fg);
   margin-bottom: 0.25rem;
- text-align: right;
- 
-  
+  text-align: right;
+
+
 }
 
 .sidenav__name:hover {
@@ -105,7 +115,7 @@ p {
 
 .sidenav__title {
   font-family: font;
-    font-size: 0.85rem;
+  font-size: 0.85rem;
   color: var(--fg-muted);
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -120,26 +130,26 @@ p {
 
 .sidenav__projects {
   flex: 1;
-text-align: right;
+  text-align: right;
 }
 
 .sidenav__section-label {
-   font-size: 0.85rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
   color: var(--fg-faint);
   font-weight: 400;
   margin-bottom: 0.75rem;
-    font-style: italic;
+  font-style: italic;
 }
 
 .sidenav__projects li a,
 .sidenav__meta li a {
   display: block;
   font-family: font;
-    font-size: 0.85rem;
+  font-size: 0.85rem;
   color: var(--fg-muted);
-    padding: 0.15rem 0;
+  padding: 0.15rem 0;
   font-weight: 300;
   letter-spacing: 0.01em;
   transition: color 0.15s ease;
@@ -166,6 +176,7 @@ text-align: right;
   text-decoration: underline;
   text-underline-offset: 0.15em;
 }
+
 /* ── MAIN ─────────────────────────────────────── */
 .main {
   margin-left: var(--nav-width);
@@ -173,7 +184,7 @@ text-align: right;
   padding: 3.5rem 5vw 6rem calc(2vw + 1rem);
   max-width: 1200px;
   padding-top: 7rem;
-  
+
 }
 
 /* ── PROJECT HEADER ─────────────────────────── */
@@ -213,7 +224,7 @@ text-align: right;
   font-size: 1.1rem;
   line-height: 1.7;
   color: var(--fg-muted);
-  
+
 }
 
 
@@ -227,8 +238,8 @@ text-align: right;
 }
 
 .vertical-block {
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
   gap: 4rem;
 }
 
@@ -236,7 +247,7 @@ text-align: right;
 .photo-block {
   display: flex;
   flex-direction: column;
- 
+
 }
 
 .photo-block img {
@@ -254,7 +265,7 @@ text-align: right;
 
 .photo-block--full img {
   aspect-ratio: 3/2;
-  
+
 }
 
 /* Medium, left-aligned */
@@ -287,7 +298,7 @@ text-align: right;
 
 .photo-block--portrait img {
   aspect-ratio: 3/4;
-  
+
 }
 
 /* Wide (between full and medium) */
@@ -328,7 +339,7 @@ figcaption {
 .project-footer {
   margin-top: 5rem;
   padding-top: 1.5rem;
- 
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -351,7 +362,7 @@ figcaption {
 /* ── INFO PAGE ─────────────────────────────── */
 .main--info {
   padding-top: 4rem;
-  
+
 }
 
 .info-grid {
@@ -359,7 +370,7 @@ figcaption {
   grid-template-columns: 600px 1fr;
   gap: 4vw;
   align-items: start;
-  
+
 }
 
 
@@ -370,7 +381,7 @@ figcaption {
 .info-section {
   margin-bottom: 2.5rem;
   padding-bottom: 2rem;
- 
+
 }
 
 .info-section:last-child {
@@ -394,7 +405,7 @@ figcaption {
   font-weight: 400;
   margin-bottom: 0.8rem;
   font-style: underline;
-  
+
 }
 
 .info-section p {
@@ -423,7 +434,7 @@ figcaption {
   font-size: 0.9rem;
   color: var(--fg);
   font-weight: 300;
- 
+
   padding-bottom: 1px;
   transition: border-color 0.15s, opacity 0.15s;
 }
@@ -446,12 +457,29 @@ figcaption {
   animation: fadeUp 0.6s ease forwards;
 }
 
-.photo-block:nth-child(1) { animation-delay: 0.05s; }
-.photo-block:nth-child(2) { animation-delay: 0.15s; }
-.photo-block:nth-child(3) { animation-delay: 0.25s; }
-.photo-block:nth-child(4) { animation-delay: 0.35s; }
-.photo-block:nth-child(5) { animation-delay: 0.45s; }
-.photo-block:nth-child(6) { animation-delay: 0.55s; }
+.photo-block:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.photo-block:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.photo-block:nth-child(3) {
+  animation-delay: 0.25s;
+}
+
+.photo-block:nth-child(4) {
+  animation-delay: 0.35s;
+}
+
+.photo-block:nth-child(5) {
+  animation-delay: 0.45s;
+}
+
+.photo-block:nth-child(6) {
+  animation-delay: 0.55s;
+}
 
 @keyframes fadeUp {
   to {
@@ -465,7 +493,8 @@ figcaption {
   :root {
     --nav-width: 180px;
   }
-.vertical-block,
+
+  .vertical-block,
   .photo-block--medium,
   .photo-block--portrait,
   .photo-block--wide {
@@ -489,52 +518,53 @@ figcaption {
 
   @media (max-width: 640px) {
 
-  .sidenav {
-    position: fixed;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100vh;
-    background: white;
-    z-index: 999;
-    padding: 2rem;
-    transition: left 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
+    .sidenav {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100vh;
+      background: white;
+      z-index: 999;
+      padding: 2rem;
+      transition: left 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
 
-  .sidenav.open {
-    left: 0;
-  }
+    .sidenav.open {
+      left: 0;
+    }
 
-  .main {
-    margin-left: 0;
-    padding: 2rem 1.25rem 4rem;
-  }
+    .main {
+      margin-left: 0;
+      padding: 2rem 1.25rem 4rem;
+    }
 
-  .menu-toggle {
-    position: fixed;
-    top: 1rem;
-    left: 1rem;
-    z-index: 1000;
-    font-size: 2rem;
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: black;
-  }
+    .menu-toggle {
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+      z-index: 1000;
+      font-size: 2rem;
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: black;
+    }
 
-}
+  }
 
   .sidenav__top {
     margin-bottom: 0;
-      padding-top: 2rem;
-       align-items: left;
+    padding-top: 2rem;
+    align-items: left;
     text-align: left;
   }
+
   .sidenav__name {
-       align-items: left;
+    align-items: left;
     text-align: left;
   }
 
@@ -557,13 +587,13 @@ figcaption {
     margin-top: 0;
     padding-top: 0;
     border-top: none;
-     align-items: left;
+    align-items: left;
     text-align: left;
   }
 
   .main {
     margin-left: 0;
     padding: 5rem 1.25rem 4rem;
-   
+
   }
 }
