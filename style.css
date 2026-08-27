@@ -30,6 +30,32 @@
   font-display: swap;
 }
 
+p::selection {
+  color: rgb(4, 4, 4);
+  background-color:  rgba(4, 255, 0, 0.669);
+}
+
+h1::selection {
+  color: rgb(4, 4, 4);
+  background-color:  rgba(4, 255, 0, 0.669);
+}
+
+h2::selection {
+  color: rgb(4, 4, 4);
+  background-color:  rgba(4, 255, 0, 0.669);
+}
+
+h3::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+.highlight {
+  color: rgb(4, 4, 4);
+  background-color:  rgba(4, 255, 0, 0.669);
+}
+
+
 :root {
   --bg: #ffffff;
   --surface: #ffffff;
