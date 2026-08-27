@@ -39,7 +39,14 @@
   <url>
     <loc>https://ushinaya.com/unattributed.html</loc>
     <lastmod>2026-08-27</lastmod>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+   <url>
+    <loc>https://ushinaya.com/aircraft_studies.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
 
