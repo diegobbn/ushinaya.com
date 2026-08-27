@@ -3,42 +3,42 @@
 
   <url>
     <loc>https://ushinaya.com/</loc>
+    <lastmod>2026-08-27</lastmod>
     <priority>1.0</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
     <loc>https://ushinaya.com/info.html</loc>
+    <lastmod>2026-08-27</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
     <loc>https://ushinaya.com/concrete_love.html</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <url>
-    <loc>https://ushinaya.com/index_of_flight.html</loc>
+    <lastmod>2026-08-27</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
     <loc>https://ushinaya.com/pigmento_cepv_alice.html</loc>
+    <lastmod>2026-08-27</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
     <loc>https://ushinaya.com/piper_wreckage.html</loc>
+    <lastmod>2026-08-27</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
     <loc>https://ushinaya.com/unattributed.html</loc>
+    <lastmod>2026-08-27</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>

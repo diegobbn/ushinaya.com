@@ -4,11 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="/IMG/favicon.ico" type="image/x-icon">
-  <title>Diego Babino / Swiss Photographer | Documentary </title>
+  <link rel="icon" href="IMG/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#f7f7f4" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ushinaya.com/" />
+  <title>Diego Babino — Swiss Photographer in Geneva</title>
 
   <meta name="description"
-    content="Diego Babino is a Swiss photographer based in Geneva, Switzerland. His work explores aviation, infrastructure, industry, landscapes, and the hidden systems that shape contemporary life through documentary and conceptual photography." />
+    content="Diego Babino is a Swiss-based photographer working across documentary, archives and personal projects, with a strong interest in aviation and technology." />
 
   <meta name="keywords"
     content="Diego Babino, Swiss photographer, photographer Geneva, Geneva photographer, documentary photography, aviation photography, contemporary photography, landscape photography, industrial photography, conceptual photography, fine art photography, photography portfolio, visual artist Switzerland, aircraft photography, aviation documentary, photographer Switzerland" />
@@ -16,53 +19,81 @@
   <meta name="author" content="Diego Babino" />
   <meta property="og:title" content="Diego Babino — Swiss Photographer" />
   <meta property="og:description"
-    content="Documentary and conceptual photography exploring aviation, infrastructure, industry, and contemporary landscapes." />
+    content="Diego Babino is a Swiss-based photographer working across documentary, archives and personal projects, with a strong interest in aviation and technology." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ushinaya.com" />
+  <meta property="og:site_name" content="Diego Babino — Photography" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:url" content="https://ushinaya.com/" />
   <meta property="og:image" content="https://ushinaya.com/IMG/IndexOfFlight/_DSC4643.jpg" />
+  <meta property="og:image:alt" content="Aircraft leaving a contrail across a warm sky" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Diego Babino — Swiss Photographer" />
   <meta name="twitter:description"
-    content="Documentary and conceptual photography exploring aviation, infrastructure, industry, and contemporary landscapes." />
+    content="Diego Babino is a Swiss-based photographer working across documentary, archives and personal projects, with a strong interest in aviation and technology." />
   <meta name="twitter:image" content="https://ushinaya.com/IMG/IndexOfFlight/_DSC4643.jpg" />
+  <meta name="twitter:image:alt" content="Aircraft leaving a contrail across a warm sky" />
+  <link rel="preload" as="image" href="IMG/IndexOfFlight/_DSC4643-web-2400.jpg" />
   <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ushinaya.com/#person",
+          "name": "Diego Babino",
+          "alternateName": "Ushinaya",
+          "url": "https://ushinaya.com/info.html",
+          "jobTitle": "Photographer",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Geneva",
+            "addressCountry": "CH"
+          },
+          "sameAs": [
+            "https://instagram.com/ushinaya",
+            "https://ch.linkedin.com/in/diegobabino"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ushinaya.com/#website",
+          "url": "https://ushinaya.com/",
+          "name": "Diego Babino — Photography",
+          "publisher": {
+            "@id": "https://ushinaya.com/#person"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    }
+  </script>
 
 </head>
 
 <body>
 
   <!-- LEFT NAV -->
-  <button class="menu-toggle">☰</button>
+  <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open navigation">☰</button>
   <div id="nav-container"></div>
 
   <!-- MAIN CONTENT -->
-  <main class="main">
+  <main class="main main--home">
 
-    <!-- <header class="project-header">
-      <h1 class="project-title">Silences</h1>
-      <p class="project-year">Geneva — 2023–2024</p>
+    <header class="home-header">
+      <p class="eyebrow">Photographer · Geneva, Switzerland</p>
+      <h1 class="home-title">Diego Babino</h1>
+      <p class="home-lede">Photography gives me a reason to follow my curiosity, whether it leads me to an airport, an archive, an industrial site, an object, or someone with a story worth hearing.</p>
+      <a class="home-contact-link" href="info.html">Information &amp; contact ↗</a>
     </header>
 
-    <section class="project-intro">
-      <p>A series on solitude and urban stillness. Taken over fourteen months across Geneva and the surrounding cantons — early mornings, empty trams, faces that carry the weight of something unsaid.</p>
-    </section> -->
-
-    <div class="photo-series">
-
-      <!-- <figure class="photo-block photo-block--full">
-        <a href="index_of_flight.html">
-          <img src="/IMG/IndexOfFlight/_DSC4643.jpg" alt="Index of Flight" loading="lazy" />
-        </a>
-        <figcaption>
-          <span class="caption-num">01</span>
-          <span class="caption-text">Index of Flight, 2025.</span>
-        </figcaption>
-      </figure> -->
+    <div class="photo-series photo-series--index">
 
       <figure class="photo-block photo-block--full">
         <a href="piper_wreckage.html">
-          <img src="IMG/WreckImg/IMG_0990.jpg" alt="Piper Wreckage" loading="lazy" />
+          <img src="IMG/WreckImg/IMG_0990-web-2400.jpg" alt="Piper PA-31T Cheyenne II aircraft wreckage in Saint-Martin" width="6240" height="4160" loading="lazy" decoding="async" />
         </a>
         <figcaption>
           <span class="caption-num">01</span>
@@ -72,7 +103,7 @@
 
       <figure class="photo-block photo-block--portrait">
         <a href="concrete_love.html">
-          <img src="/IMG/ConcreteLove/260511_WS_IMAGEVEVEY_ES1_low-res_005.jpg" alt="Concrete Love" loading="lazy" />
+          <img src="IMG/ConcreteLove/260511_WS_IMAGEVEVEY_ES1_low-res_005-web-2400.jpg" alt="Concrete Love silkscreen poster from the CEPV collective exhibition" width="2362" height="3543" loading="lazy" decoding="async" />
         </a>
         <figcaption>
           <span class="caption-num">02</span>
@@ -82,7 +113,7 @@
 
       <figure class="photo-block photo-block--full">
         <a href="pigmento_cepv_alice.html">
-          <img src="IMG/PigmentoCepvAlice/IMG_0886.jpg" alt="Pigmento CEPV × ALICE" loading="lazy" />
+          <img src="IMG/PigmentoCepvAlice/IMG_0886-web-2400.jpg" alt="Pigmento — CEPV × ALICE, Saint-Martin" width="6206" height="4137" loading="lazy" decoding="async" />
         </a>
         <figcaption>
           <span class="caption-num">03</span>
@@ -92,7 +123,7 @@
 
        <figure class="photo-block photo-block--full">
         <a href="aircraft_studies.html">
-          <img src="/IMG/aircraftStudies/8.jpg" alt="Aircraft Studies" loading="lazy" />
+          <img src="IMG/aircraftStudies/8-web-2400.jpg" alt="Aircraft Studies, aircraft photographed over Geneva" width="7240" height="4827" loading="lazy" decoding="async" />
         </a>
         <figcaption>
           <span class="caption-num">04</span>
@@ -102,7 +133,7 @@
 
       <figure class="photo-block photo-block--full">
         <a href="unattributed.html">
-          <img src="IMG/Unattributed/unattributed_09.11.01_Scan_35mm-D.jpg" alt="Unattributed" loading="lazy" />
+          <img src="IMG/Unattributed/unattributed_09.11.01_Scan_35mm-D-web-2400.jpg" alt="Unattributed anonymous 35mm slide from the Library of Congress archive" width="4082" height="2769" loading="lazy" decoding="async" />
         </a>
         <figcaption>
           <span class="caption-num">05</span>
@@ -126,6 +157,6 @@
   </main>
 
 </body>
-<script src="main.js"></script>
+<script src="main.js" defer></script>
 
 </html>
