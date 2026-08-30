@@ -526,6 +526,10 @@ body.lightbox-open {
   aspect-ratio: 2 / 3;
 }
 
+.photo-block--portraitCarre img {
+  aspect-ratio: 1 / 1;
+}
+
 .photo-block--wide {
   width: 80%;
 }
