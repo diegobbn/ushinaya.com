@@ -50,6 +50,16 @@ h3::selection {
   background-color: rgba(4, 255, 0, 0.669);
 }
 
+a::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+html::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
 .highlight {
   color: rgb(4, 4, 4);
   background-color:  rgba(4, 255, 0, 0.669);
@@ -428,8 +438,8 @@ body.lightbox-open {
 
 .lightbox__image {
   width: auto;
-  max-width: 100%;
-  max-height: calc(100vh - 8rem);
+  max-width: 70%;
+  max-height: calc(100vh - 15rem);
   object-fit: contain;
   margin: auto;
   box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 25%);
