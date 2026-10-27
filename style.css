@@ -55,10 +55,81 @@ a::selection {
   background-color: rgba(4, 255, 0, 0.669);
 }
 
+b::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+br::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+i::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+div::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+section::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+main::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+span::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
 html::selection {
   color: rgb(4, 4, 4);
   background-color: rgba(4, 255, 0, 0.669);
 }
+
+img::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+ul::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+li::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+header::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+strong::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+address::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
+footer::selection {
+  color: rgb(4, 4, 4);
+  background-color: rgba(4, 255, 0, 0.669);
+}
+
 
 .highlight {
   color: rgb(4, 4, 4);
